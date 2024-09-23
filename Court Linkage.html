@@ -1,0 +1,940 @@
+<HTML>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Court Links Accordion</title>
+    <style>
+        details {
+            display: inline;
+        }
+        summary {
+            display: inline;
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+        }
+        summary:hover {
+            color: darkblue;
+        }
+		.four-column-list {
+		  column-count: 4;
+		  column-gap: 10px; /* Adjust gap between columns as needed */
+		}
+
+		.four-column-list li {
+		  break-inside: avoid; /* Prevent items from breaking in the middle */
+		}
+    </style>
+</head>
+<BODY>
+<UL class="four-column-list">
+    <LI>
+        <details>
+            <summary>Alaska</summary>
+            - <A HREF="https://www.akd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.akd.uscourts.gov/court-info/local-rules-and-orders/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=AKDC&appurl=https://ecf.akd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=AKDC&appurl=https://ecf.akd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.akd.uscourts.gov/judges-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ariz</summary>
+            - <A HREF="https://www.azd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.azd.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=AZDC&appurl=https://ecf.azd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=AZDC&appurl=https://ecf.azd.uscourts.gov/cgi-bin/iquery.pl?102965223316091-L_1_0-1" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.azd.uscourts.gov/judges/judges-orders" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ark E</summary>
+            - <A HREF="https://www.are.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.are.uscourts.gov/court-info/local-rules-and-orders/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=AREDC&appurl=https://ecf.ared.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pcl.uscourts.gov/pcl/index.jsf" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.are.uscourts.gov/judges-information" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ark W</summary>
+            - <A HREF="https://www.arwd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.arwd.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=ARWDC&appurl=https://ecf.arwd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=ARWDC&appurl=https://ecf.arwd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.arwd.uscourts.gov/judge-information" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Calif C</summary>
+            - <A HREF="https://www.cacd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.cacd.uscourts.gov/court-procedures/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=CACDC&appurl=https://ecf.cacd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=CACDC&appurl=https://ecf.cacd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.cacd.uscourts.gov/judges-schedules-procedures" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Calif E</summary>
+            - <A HREF="https://www.caed.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.caed.uscourts.gov/caednew/index.cfm/rules/local-rules/" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=CAEDC&appurl=https://ecf.caed.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=CAEDC&appurl=https://ecf.caed.uscourts.gov/cgi-bin/FilerQry.pl?452" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.caed.uscourts.gov/caednew/index.cfm/judges/all-judges/" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Calif N</summary>
+            - <A HREF="https://www.cand.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.cand.uscourts.gov/rules/civil-local-rules/" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=CANDC&appurl=https://ecf.cand.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=CANDC&appurl=https://ecf.cand.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.cand.uscourts.gov/judges/" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Calif S</summary>
+            - <A HREF="https://www.casd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.casd.uscourts.gov/rules/local-rules.aspx" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=CASDC&appurl=https://ecf.casd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=CASDC&appurl=https://ecf.casd.uscourts.gov/cgi-bin/FilerQry.pl?602457" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.casd.uscourts.gov/Judges.aspx" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Colo</summary>
+            - <A HREF="http://www.cod.uscourts.gov/Home.aspx" TARGET="_blank">Ct</A> | 
+            <A HREF="http://www.cod.uscourts.gov/CourtOperations/RulesProcedures/LocalRules.aspx" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=CODC&appurl=https://ecf.cod.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="http://www.cod.uscourts.gov/CourtOperations/PACER.aspx" TARGET="_blank">PACER</A> | 
+            <A HREF="http://www.cod.uscourts.gov/JudicialOfficers.aspx" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Conn</summary>
+            - <A HREF="https://www.ctd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.ctd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=CTDC&appurl=https://ecf.ctd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=CTDC&appurl=https://ecf.ctd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.ctd.uscourts.gov/judges-information" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Del</summary>
+            - <A HREF="https://www.ded.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.ded.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=DEDC&appurl=https://ecf.ded.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=DEDC&appurl=https://ecf.ded.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.ded.uscourts.gov/judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>DC</summary>
+            - <A HREF="https://www.dcd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.dcd.uscourts.gov/court-info/local-rules-and-orders/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=DCDC&appurl=https://ecf.dcd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?appurl=pcl.uscourts.gov/search" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.dcd.uscourts.gov/judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Fla M</summary>
+            - <A HREF="https://www.flmd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.flmd.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=FLMDC&appurl=https://ecf.flmd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=FLMDC&appurl=https://ecf.flmd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.flmd.uscourts.gov/judges/all" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Fla N</summary>
+            - <A HREF="http://www.flnd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.flnd.uscourts.gov/local-rules-1" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=FLNDC&appurl=https://ecf.flnd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=FLNDC&appurl=https://ecf.flnd.uscourts.gov/cgi-bin/FilerQry.pl?430092" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.flnd.uscourts.gov/judges-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Fla S</summary>
+            - <A HREF="https://www.flsd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.flsd.uscourts.gov/local-rules-and-procedures" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=FLSDC&appurl=https://ecf.flsd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=FLSDC&appurl=https://ecf.flsd.uscourts.gov/cgi-bin/FilerQry.pl?650972" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.flsd.uscourts.gov/district-judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ga M</summary>
+            - <A HREF="https://www.gamd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.gamd.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=GAMDC&appurl=https://ecf.gamd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=GAMDC&appurl=https://ecf.gamd.uscourts.gov/cgi-bin/FilerQry.pl?128708" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.gamd.uscourts.gov/court-personnel" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ga N</summary>
+            - <A HREF="https://www.gand.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.gand.uscourts.gov/court-info/local-rules-and-orders/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=GANDC&appurl=https://ecf.gand.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=GANDC&appurl=https://ecf.gand.uscourts.gov/cgi-bin/show_doc.pl?caseid%3D175096%26de_seq_num%3D154%26dm_id%3D4833487%26doc_num%3D46" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.gand.uscourts.gov/district-judge-directory" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ga S</summary>
+            - <A HREF="https://www.gasd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.gasd.uscourts.gov/court-info/local-rules-and-orders/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=GASDC&appurl=https://ecf.gasd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=GASDC&appurl=https://ecf.gasd.uscourts.gov/cgi-bin/FilerQry.pl?83137" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.gasd.uscourts.gov/court-directory" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Guam</summary>
+            - <A HREF="https://www.gud.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.gud.uscourts.gov/Local_Rules_of_Practice" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=GUDC&appurl=https://ecf.gud.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=GUDC&appurl=https://ecf.gud.uscourts.gov/cgi-bin/FilerQry.pl?1106" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.gud.uscourts.gov/content/our-judicial-officers" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Hawaii</summary>
+            - <A HREF="https://www.hid.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.hid.uscourts.gov/rules/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=HIDC&appurl=https://ecf.hid.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=HIDC&appurl=https://ecf.hid.uscourts.gov/cgi-bin/FilerQry.pl?95357" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.hid.uscourts.gov/judges/" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Idaho</summary>
+            - <A HREF="https://www.id.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.id.uscourts.gov/district/forms_fees_rules/Civil_Rules.cfm" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=IDDC&appurl=https://ecf.idd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=IDDC&appurl=https://ecf.idd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.id.uscourts.gov/clerks/bench_bar_conf/Federal_Judges.cfm" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ill C</summary>
+            - <A HREF="https://www.ilcd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.ilcd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=ILCDC&appurl=https://ecf.ilcd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=ILCDC&appurl=https://ecf.ilcd.uscourts.gov/cgi-bin/DktRpt.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.ilcd.uscourts.gov/federal-judges-general-information" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ill N</summary>
+            - <A HREF="https://www.ilnd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.ilnd.uscourts.gov/LocalRules.aspx" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=ILNDC&appurl=https://ecf.ilnd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=ILNDC&appurl=https://ecf.ilnd.uscourts.gov/cgi-bin/iquery.pl?caseNumber%3D1:19-cv-01610" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.ilnd.uscourts.gov/Judges.aspx" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ill S</summary>
+            - <A HREF="https://www.ilsd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.ilsd.uscourts.gov/LocalCourtRules.aspx" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=ILSDC&appurl=https://ecf.ilsd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=ILSDC&appurl=https://ecf.ilsd.uscourts.gov/cgi-bin/WrtOpRpt.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.ilsd.uscourts.gov/Judges.aspx" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ind N</summary>
+            - <A HREF="https://www.innd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.innd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=INNDC&appurl=https://ecf.innd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=INNDC&appurl=https://ecf.innd.uscourts.gov/cgi-bin/FilerQry.pl?101084" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.innd.uscourts.gov/judges-information" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ind S</summary>
+            - <A HREF="https://www.insd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.insd.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=INSDC&appurl=https://ecf.insd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=INSDC&appurl=https://ecf.insd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.insd.uscourts.gov/judges-information" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Iowa N</summary>
+            - <A HREF="https://www.iand.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.iand.uscourts.gov/local-rules-federal-rules-administrative-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=IANDC&appurl=https://ecf.iand.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=IANDC&appurl=https://ecf.iand.uscourts.gov/cgi-bin/FilerQry.pl?22480" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.iand.uscourts.gov/iowa-northern-judge-information" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Iowa S</summary>
+            - <A HREF="https://www.iasd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.iasd.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=IASDC&appurl=https://ecf.iasd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=IASDC&appurl=https://ecf.iasd.uscourts.gov/cgi-bin/FilerQry.pl?65874" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.iasd.uscourts.gov/judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Kans</summary>
+            - <A HREF="https://www.ksd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://ksd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=KSDC&appurl=https://ecf.ksd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=KSDC&appurl=https://ecf.ksd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.ksd.uscourts.gov/judges-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ky E</summary>
+            - <A HREF="https://www.kyed.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.kyed.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=KYEDC&appurl=https://ecf.kyed.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=KYEDC&appurl=https://ecf.kyed.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.kyed.uscourts.gov/judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ky W</summary>
+            - <A HREF="https://www.kywd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.kywd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=KYWDC&appurl=https://ecf.kywd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=KYWDC&appurl=https://ecf.kywd.uscourts.gov/cgi-bin/FilerQry.pl?131278" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.kywd.uscourts.gov/judges-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>La E</summary>
+            - <A HREF="https://www.laed.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.laed.uscourts.gov/attorney-information/rules-and-orders/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=LAEDC&appurl=https://ecf.laed.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=LAEDC&appurl=https://ecf.laed.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.laed.uscourts.gov/judges-information/district-judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>La W</summary>
+            - <A HREF="https://www.lawd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.lawd.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=LAWDC&appurl=https://ecf.lawd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://www.lawd.uscourts.gov/chambers" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>La M</summary>
+            - <A HREF="https://www.lamd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.lamd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=LAMDC&appurl=https://ecf.lamd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pcl.uscourts.gov/pcl/" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.lamd.uscourts.gov/content/judge-biographies" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Maine</summary>
+            - <A HREF="https://www.med.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.med.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MEDC&appurl=https://ecf.med.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pcl.uscourts.gov/pcl/index.jsf" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.med.uscourts.gov/court-history#Judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Md</summary>
+            - <A HREF="https://www.mdd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.mdd.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MDDC&appurl=https://ecf.mdd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MDDC&appurl=https://ecf.mdd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.mdd.uscourts.gov/district-judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Mass</summary>
+            - <A HREF="https://www.mad.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.mad.uscourts.gov/general/rules-home.htm" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MADC&appurl=https://ecf.mad.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MADC&appurl=https://ecf.mad.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.mad.uscourts.gov/general/judges.htm" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Mich E</summary>
+            - <A HREF="https://www.mied.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.mied.uscourts.gov/index.cfm?pagefunction=rulesPlansOrders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MIEDC&appurl=https://ecf.mied.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MIEDC&appurl=https://ecf.mied.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.mied.uscourts.gov/index.cfm?pageFunction=chambers&judgeid=22" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Mich W</summary>
+            - <A HREF="https://www.miwd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.miwd.uscourts.gov/local-rules-practice-and-procedure" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MIWDC&appurl=https://ecf.miwd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MIWDC&appurl=https://ecf.miwd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.miwd.uscourts.gov/judicial-directory" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Minn</summary>
+            - <A HREF="https://www.mnd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.mnd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MNDC&appurl=https://ecf.mnd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MNDC&appurl=https://ecf.mnd.uscourts.gov/cgi-bin/qryDocument.pl?110170" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.mnd.uscourts.gov/judges-practice-pointers" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Miss N</summary>
+            - <A HREF="https://www.msnd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.msnd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MSNDC&appurl=https://ecf.msnd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MSNDC&appurl=https://ecf.msnd.uscourts.gov/cgi-bin/WrtOpRpt.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.msnd.uscourts.gov/judges-information" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Miss S</summary>
+            - <A HREF="https://www.mssd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.mssd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MSSDC&appurl=https://ecf.mssd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.uscourts.gov/" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.mssd.uscourts.gov/judges-information" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Mo E</summary>
+            - <A HREF="https://www.moed.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.moed.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MOEDC&appurl=https://ecf.moed.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MOEDC&appurl=https://ecf.moed.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.moed.uscourts.gov/judges-contact-information-and-requirements" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Mo W</summary>
+            - <A HREF="https://www.mow.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.mow.uscourts.gov/district/rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MOWDC&appurl=https%3A//ecf.mowd.uscourts.gov/cgi-bin/showpage.pl%3F16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pcl.uscourts.gov/pcl/index.jsf" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.mow.uscourts.gov/district/judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Mont</summary>
+            - <A HREF="https://www.mtd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.mtd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MTDC&appurl=https://ecf.mtd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=MTDC&appurl=https://ecf.mtd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.mtd.uscourts.gov/judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Nebr</summary>
+            - <A HREF="https://www.ned.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.ned.uscourts.gov/attorney/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NEDC&appurl=https://ecf.ned.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NEDC&appurl=https://ecf.ned.uscourts.gov/cgi-bin/FilerQry.pl?42095" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.ned.uscourts.gov/attorney/judges-information" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Nev</summary>
+            - <A HREF="https://www.nvd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.nvd.uscourts.gov/court-information/rules-and-orders/" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NVDC&appurl=https://ecf.nvd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NVDC&appurl=https://ecf.nvd.uscourts.gov/cgi-bin/qryDocument.pl?163492" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.nvd.uscourts.gov/court-information/judges/" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>NH</summary>
+            - <A HREF="https://www.nhd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.nhd.uscourts.gov/local-rules-0" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NHDC&appurl=https://ecf.nhd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://www.nhd.uscourts.gov/court-information" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>NJ</summary>
+            - <A HREF="https://www.njd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.njd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NJDC&appurl=https://ecf.njd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NJDC&appurl=https://ecf.njd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.njd.uscourts.gov/our-judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>N Mex</summary>
+            - <A HREF="https://www.nmd.uscourts.gov/" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.nmd.uscourts.gov/court-info/local-rules-and-orders/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NMDC&appurl=https://ecf.nmd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NMDC&appurl=https://ecf.nmd.uscourts.gov/cgi-bin/FilerQry.pl?286957" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.nmd.uscourts.gov/judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>NY E</summary>
+            - <A HREF="https://www.nyed.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.nyed.uscourts.gov/local-rules-documents-and-administrative-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NYEDC&appurl=https://ecf.nyed.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.uscourts.gov/" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.nyed.uscourts.gov/judges-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>NY N</summary>
+            - <A HREF="https://www.nynd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.nynd.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NYNDC&appurl=https://ecf.nynd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NYNDC&appurl=https://ecf.nynd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.nynd.uscourts.gov/judge-biographies#bks" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>NY S</summary>
+            - <A HREF="https://www.nysd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.nysd.uscourts.gov/rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NYSDC&appurl=https://ecf.nysd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NYSDC&appurl=https://ecf.nysd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.nysd.uscourts.gov/judges/district-judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>NY W</summary>
+            - <A HREF="https://www.nywd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.nywd.uscourts.gov/rules-individual-local-federal" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NYWDC&appurl=https://ecf.nywd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NYWDC&appurl=https://ecf.nywd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.nywd.uscourts.gov/district-judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>NC E</summary>
+            - <A HREF="https://www.nced.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="http://www.nced.uscourts.gov/rules/default.aspx" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NCEDC&appurl=https://ecf.nced.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NCEDC&appurl=https://ecf.nced.uscourts.gov/cgi-bin/FilerQry.pl?197838" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.nced.uscourts.gov/judges/Default.aspx" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>NC M</summary>
+            - <A HREF="https://www.ncmd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.ncmd.uscourts.gov/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NCMDC&appurl=https://ecf.ncmd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NCMDC&appurl=https://ecf.ncmd.uscourts.gov/cgi-bin/FilerQry.pl?96094" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.ncmd.uscourts.gov/judges-middle-district-north-carolina" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>NC W</summary>
+            - <A HREF="https://www.ncwd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.ncwd.uscourts.gov/court-info/local-rules-and-orders/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NCWDC&appurl=https://ecf.ncwd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NCWDC&appurl=https://ecf.ncwd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.ncwd.uscourts.gov/judges-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>N Dak</summary>
+            - <A HREF="https://www.ndd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.ndd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NDDC&appurl=https://ecf.ndd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NDDC&appurl=https://ecf.ndd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.ndd.uscourts.gov/judges-chambers" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>MP</summary>
+            - <A HREF="https://www.nmid.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.nmid.uscourts.gov/localrules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NMIDC&appurl=https://ecf.nmid.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=NMIDC&appurl=https://ecf.nmid.uscourts.gov/cgi-bin/WrtOpRpt.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.nmid.uscourts.gov/calendar" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ohio N</summary>
+            - <A HREF="https://www.ohnd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.ohnd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=OHNDC&appurl=https://ecf.ohnd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.uscourts.gov/" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.ohnd.uscourts.gov/judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ohio S</summary>
+            - <A HREF="https://www.ohsd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.ohsd.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=OHSDC&appurl=https://ecf.ohsd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=OHSDC&appurl=https://ecf.ohsd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.ohsd.uscourts.gov/judges-biographical-sketch" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Okla E</summary>
+            - <A HREF="https://www.oked.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.oked.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=OKEDC&appurl=https://ecf.oked.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=OKEDC&appurl=https://ecf.oked.uscourts.gov/cgi-bin/FilerQry.pl?15730" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.oked.uscourts.gov/judges-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Okla N</summary>
+            - <A HREF="https://www.oknd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.oknd.uscourts.gov/sites/default/files/madcap/Default.htm" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=OKNDC&appurl=https://ecf.oknd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pcl.uscourts.gov/pcl/" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.oknd.uscourts.gov/judges-information" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Okla W</summary>
+            - <A HREF="https://www.okwd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.okwd.uscourts.gov/rules-procedures/local-rules/" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=OKWDC&appurl=https://ecf.okwd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=OKWDC&appurl=https://ecf.okwd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.okwd.uscourts.gov/rules-procedures/chambers-rules/" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Ore</summary>
+            - <A HREF="https://www.ord.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.ord.uscourts.gov/index.php/rules-orders-and-notices/local-rules/civil-procedure" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=ORDC&appurl=https://ecf.ord.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=ORDC&appurl=https://ecf.ord.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.ord.uscourts.gov/index.php/court-info/our-judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Pa E</summary>
+            - <A HREF="https://www.paed.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.paed.uscourts.gov/documents2/local-rules#LocalCivilRules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=PAEDC&appurl=https://ecf.paed.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=PAEDC&appurl=https://ecf.paed.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.paed.uscourts.gov/judges-info/district-court-judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Pa M</summary>
+            - <A HREF="https://www.pamd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.pamd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=PAMDC&appurl=https://ecf.pamd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=PAMDC&appurl=https://ecf.pamd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.pamd.uscourts.gov/judges-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Pa W</summary>
+            - <A HREF="https://www.pawd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.pawd.uscourts.gov/court-info/local-rules-and-orders/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=PAWDC&appurl=https://ecf.pawd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=PAWDC&appurl=https://ecf.pawd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.pawd.uscourts.gov/judges-information" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>PR</summary>
+            - <A HREF="https://www.prd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.prd.uscourts.gov/court-info/local-rules-and-orders/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=PRDC&appurl=https://ecf.prd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=PRDC&appurl=https%3A%2F%2Fecf.prd.uscourts.gov%2Fcgi-bin%2Fmobile_query.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.prd.uscourts.gov/judges-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>RI</summary>
+            - <A HREF="https://www.rid.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.rid.uscourts.gov/local-rules-and-procedures" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=RIDC&appurl=https://ecf.rid.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=RIDC&appurl=https://ecf.rid.uscourts.gov/cgi-bin/FilerQry.pl?55763" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.rid.uscourts.gov/our-judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>SC</summary>
+            - <A HREF="https://www.scd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="http://www.scd.uscourts.gov/navtop/rules.asp" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=SCDC&appurl=https://ecf.scd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="http://www.scd.uscourts.gov/Judges/distjudge.asp" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>S Dak</summary>
+            - <A HREF="https://www.sdd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.sdd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=SDDC&appurl=https://ecf.sdd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=SDDC&appurl=https://ecf.sdd.uscourts.gov/cgi-bin/FilerQry.pl?1242" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.sdd.uscourts.gov/judges-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Tenn E</summary>
+            - <A HREF="https://www.tned.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.tned.uscourts.gov/local-rules-and-standing-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=TNEDC&appurl=https://ecf.tned.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=TNEDC&appurl=https://ecf.tned.uscourts.gov/cgi-bin/FilerQry.pl?110469" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.tned.uscourts.gov/united-states-district-judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Tenn M</summary>
+            - <A HREF="https://www.tnmd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.tnmd.uscourts.gov/court-info/local-rules-and-orders/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=TNMDC&appurl=https://ecf.tnmd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=TNMDC&appurl=https://ecf.tnmd.uscourts.gov/cgi-bin/FilerQry.pl?80567" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.tnmd.uscourts.gov/content/chief-district-judge-crenshaw" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Tenn W</summary>
+            - <A HREF="https://www.tnwd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.tnwd.uscourts.gov/local-court-rules-plans.php" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=TNWDC&appurl=https://ecf.tnwd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=TNWDC&appurl=https://ecf.tnwd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.tnwd.uscourts.gov/judges-websites.php" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Tex E</summary>
+            - <A HREF="https://www.txed.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.txed.uscourts.gov/?q=civil-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=TXEDC&appurl=https://ecf.txed.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=TXEDC&appurl=https://ecf.txed.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.txed.uscourts.gov/?q=eastern-district-judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Tex N</summary>
+            - <A HREF="https://www.txnd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.txnd.uscourts.gov/civil-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=TXNDC&appurl=https://ecf.txnd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=TXNDC&appurl=https://ecf.txnd.uscourts.gov/cgi-bin/FilerQry.pl?218155" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.txnd.uscourts.gov/northern-district-judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Tex S</summary>
+            - <A HREF="https://www.txs.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.txs.uscourts.gov/page/local-federal-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=TXSDC&appurl=https://ecf.txsd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?appurl=pcl.uscourts.gov/search" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.txs.uscourts.gov/page/district-magistrate-judges-procedures-schedules" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Tex W</summary>
+            - <A HREF="https://www.txwd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.txwd.uscourts.gov/court-information/lcr-introduction/" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=TXWDC&appurl=https://ecf.txwd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=TXWDC&appurl=https://ecf.txwd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.txwd.uscourts.gov/judges-information/judges-directory-biographies/" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Utah</summary>
+            - <A HREF="https://www.utd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.utd.uscourts.gov/rules-practice" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=UTDC&appurl=https://ecf.utd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=UTDC&appurl=https://ecf.utd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.utd.uscourts.gov/judges-district-utah-0" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Vt</summary>
+            - <A HREF="https://www.vtd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.vtd.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=VTDC&appurl=https://ecf.vtd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=VTDC&appurl=https://ecf.vtd.uscourts.gov/cgi-bin/qryDocument.pl?35267" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.vtd.uscourts.gov/judges-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>VI</summary>
+            - <A HREF="https://www.vid.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.vid.uscourts.gov/court-info/local-rules-and-orders/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=VIDC&appurl=https://ecf.vid.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=VIDC&appurl=https://ecf.vid.uscourts.gov/cgi-bin/FilerQry.pl?26406" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.vid.uscourts.gov/judges-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Va E</summary>
+            - <A HREF="https://www.vaed.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.vaed.uscourts.gov/court-info/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=VAEDC&appurl=https://ecf.vaed.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=VAEDC&appurl=https://ecf.vaed.uscourts.gov/cgi-bin/FilerQry.pl?502085" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.vaed.uscourts.gov/court-schedules" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Va W</summary>
+            - <A HREF="http://www.vawd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="http://www.vawd.uscourts.gov/court-information/local-rules-standing-orders.aspx" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=VAWDC&appurl=https://ecf.vawd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=VAWDC&appurl=https://ecf.vawd.uscourts.gov/cgi-bin/FilerQry.pl?128982" TARGET="_blank">PACER</A> | 
+            <A HREF="http://www.vawd.uscourts.gov/judges.aspx" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Wash E</summary>
+            - <A HREF="https://www.waed.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.waed.uscourts.gov/local-civil-rules-eastern-district-washington" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=WAEDC&appurl=https://ecf.waed.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=WAEDC&appurl=https://ecf.waed.uscourts.gov/cgi-bin/FilerQry.pl?100763" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.waed.uscourts.gov/calendars-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Wash W</summary>
+            - <A HREF="https://www.wawd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.wawd.uscourts.gov/local-rules-and-orders" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=WAWDC&appurl=https://ecf.wawd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=WAWDC&appurl=https://ecf.wawd.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.wawd.uscourts.gov/judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>W Va N</summary>
+            - <A HREF="https://www.wvnd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.google.com/search?q=site%3Awvnd.uscourts.gov+intitle%3A%22Rules%22+filetype%3Apdf" TARGET="_blank">Rules</A> | 
+            <A HREF="https://ecf.wvnd.uscourts.gov/cgi-bin/ShowIndex.pl" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=WVNDC&appurl=https://ecf.wvnd.uscourts.gov/cgi-bin/FilerQry.pl?56045" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.wvnd.uscourts.gov/judges-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>W Va S</summary>
+            - <A HREF="https://www.wvsd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.wvsd.uscourts.gov/court-info/local-rules-and-orders/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=WVSDC&appurl=https://ecf.wvsd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=WVSDC&appurl=https://ecf.wvsd.uscourts.gov/cgi-bin/FilerQry.pl?222016" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.wvsd.uscourts.gov/judges-info/district-court-judges/thomas-e-johnston" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Wis E</summary>
+            - <A HREF="https://www.wied.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.wied.uscourts.gov/local-rules-and-guidance" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=WIEDC&appurl=https://ecf.wied.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=WIEDC&appurl=https://ecf.wied.uscourts.gov/cgi-bin/iquery.pl" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.wied.uscourts.gov/judges" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Wis W</summary>
+            - <A HREF="https://www.wiwd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.wiwd.uscourts.gov/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=WIWDC&appurl=https://ecf.wiwd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.uscourts.gov/" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.wiwd.uscourts.gov/judge-specific-procedures" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+    <LI>
+        <details>
+            <summary>Wyo</summary>
+            - <A HREF="https://www.wyd.uscourts.gov" TARGET="_blank">Ct</A> | 
+            <A HREF="https://www.wyd.uscourts.gov/court-info/local-rules-and-orders/local-rules" TARGET="_blank">Rules</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=WYDC&appurl=https://ecf.wyd.uscourts.gov/cgi-bin/showpage.pl?16" TARGET="_blank">ECF</A> | 
+            <A HREF="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=WYDC&appurl=https://ecf.wyd.uscourts.gov/cgi-bin/FilerQry.pl?14401" TARGET="_blank">PACER</A> | 
+            <A HREF="https://www.wyd.uscourts.gov/judges-info" TARGET="_blank">Judg</A>
+        </details>
+    </LI>
+</UL>
+</BODY>
+</HTML>
